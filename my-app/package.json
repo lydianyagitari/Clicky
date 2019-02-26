@@ -2,14 +2,11 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lydianyagitari.github.io/Clicky",
-
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.3",
     "react-dom": "^16.8.3"
   },
-  
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -26,8 +23,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "react-scripts": "^2.1.5",
-    "deploy": "npm run build&&gh-pages -d build"
+    "react-scripts": "^2.1.5"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
