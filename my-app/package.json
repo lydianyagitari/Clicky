@@ -5,8 +5,9 @@
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.3",
-    "react-dom": "^16.8.3",
-    "react-scripts": "2.1.5"
+    "homepage": "https://lydianyagitari.github.io/Clicky",
+
+    "react-dom": "^16.8.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -22,5 +23,13 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "react-scripts": "^2.1.5",
+    "deploy": "npm run build&&gh-pages -d build"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "author": "lydia",
+  "license": "ISC"
 }
