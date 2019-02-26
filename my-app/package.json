@@ -2,11 +2,11 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://lydianyagitari.github.io/Clicky",
+
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.3",
-    "homepage": "https://lydianyagitari.github.io/Clicky",
-
     "react-dom": "^16.8.3"
   },
   "scripts": {
